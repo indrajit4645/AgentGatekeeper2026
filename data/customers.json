@@ -1,0 +1,23 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "name": "Rahul Sharma",
+    "masked_account": "XXXX-XXXX-9823",
+    "account_type": "Savings Account",
+    "mock_balance": 85000.00
+  },
+  {
+    "customer_id": "CUST-1002",
+    "name": "Priya Patel",
+    "masked_account": "XXXX-XXXX-4712",
+    "account_type": "Salary Account",
+    "mock_balance": 120000.00
+  },
+  {
+    "customer_id": "CUST-1003",
+    "name": "Amit Verma",
+    "masked_account": "XXXX-XXXX-2398",
+    "account_type": "Current Account",
+    "mock_balance": 45000.00
+  }
+]

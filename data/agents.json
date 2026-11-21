@@ -1,0 +1,99 @@
+[
+  {
+    "agent_id": "AGT-ICICI-001",
+    "agent_name": "ICICI Primary Autonomous Bot",
+    "agent_type": "Full-Service Banking Bot",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance",
+      "Pay Bill",
+      "Transfer Money"
+    ],
+    "valid_until": "2028-12-31",
+    "api_key_hash": "f815cd684697fe3968dea9d8e360eca1d2e5e56cee1058133615515804463e0e",
+    "status": "ACTIVE",
+    "registration_timestamp": "2026-01-10 10:00:00",
+    "revocation_timestamp": null,
+    "revocation_reason": null,
+    "last_key_rotation": "2026-11-21 17:42:09"
+  },
+  {
+    "agent_id": "AGT-ICICI-002",
+    "agent_name": "Balance & Statement Bot",
+    "agent_type": "Read-Only Assistant",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance"
+    ],
+    "valid_until": "2028-12-31",
+    "api_key_hash": "2a782fb8fd077908b8c660b24e367f07f838893711f4916b2a9fecd2cce09476",
+    "status": "ACTIVE",
+    "registration_timestamp": "2026-02-15 11:30:00",
+    "revocation_timestamp": null,
+    "revocation_reason": null
+  },
+  {
+    "agent_id": "AGT-ICICI-003",
+    "agent_name": "Compromised Third-Party Bot",
+    "agent_type": "Payment Bot",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance",
+      "Pay Bill"
+    ],
+    "valid_until": "2028-12-31",
+    "api_key_hash": "1e90287dde83b9f1022fb170859496b44a891fe07795be7aed4633b62fc9c1fb",
+    "status": "REVOKED",
+    "registration_timestamp": "2026-01-05 09:15:00",
+    "revocation_timestamp": "2026-11-20 14:30:00",
+    "revocation_reason": "Security Alert: Suspicious bot activity reported by customer"
+  },
+  {
+    "agent_id": "AGT-ICICI-004",
+    "agent_name": "Expired FY23 Financial Assistant",
+    "agent_type": "Seasonal Tax Bot",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance",
+      "Pay Bill"
+    ],
+    "valid_until": "2024-01-01",
+    "api_key_hash": "e44911e39d8374d37ebbd991a908d8bf90e01d79b2b6ceb2c7da68c5686d1014",
+    "status": "ACTIVE",
+    "registration_timestamp": "2023-01-01 08:00:00",
+    "revocation_timestamp": null,
+    "revocation_reason": null
+  },
+  {
+    "agent_id": "AGT-ICICI-005",
+    "agent_name": "Test Banking Assistant.",
+    "agent_type": "Personal Financial Bot",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance",
+      "Pay Bill"
+    ],
+    "valid_until": "2027-11-21",
+    "api_key_hash": "12dc4d1615ded98084c14f8f7ae6a987835a4aea1de52ef545f6380e06f016ee",
+    "status": "REVOKED",
+    "registration_timestamp": "2026-11-21 17:03:31",
+    "revocation_timestamp": "2026-11-21 17:04:48",
+    "revocation_reason": "Customer initiated revocation due to security concerns"
+  },
+  {
+    "agent_id": "AGT-ICICI-006",
+    "agent_name": "Test Banking Assistant.",
+    "agent_type": "Personal Financial Bot",
+    "customer_id": "CUST-1001",
+    "allowed_actions": [
+      "View Balance",
+      "Pay Bill"
+    ],
+    "valid_until": "2027-11-21",
+    "api_key_hash": "6b983ef21fde919f433ea8dc7cb3be913803548730307c9a746a2af6d2e481b2",
+    "status": "ACTIVE",
+    "registration_timestamp": "2026-11-21 17:03:54",
+    "revocation_timestamp": null,
+    "revocation_reason": null
+  }
+]
